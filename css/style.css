@@ -5,18 +5,11 @@
 }
 
 [class^='container'] {
-    border: 1px dashed black;
-    background-color: lightblue;
     margin: 40px auto;
 }
 
-[class^='row'] {
-    border: 1px dashed red;
-}
-
 [class^='col'] {
-    background-color: pink;
-    border: 1px solid black;
+    padding: 15px;
 }
 
 
@@ -31,3 +24,4 @@ header .col{
 }
 
 /* Main */
+
