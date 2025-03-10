@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[class^='container'] {
+    border: 1px dashed black;
+    background-color: lightblue;
+    margin: 40px auto;
+}
+
+[class^='row'] {
+    border: 1px dashed red;
+}
+
+[class^='col'] {
+    background-color: pink;
+    border: 1px solid black;
+}
+
+
+/* Header */
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+header .col{
+    text-align: center;
+}
+
+/* Main */
